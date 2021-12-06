@@ -6,10 +6,19 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <form class="recipe-input"></form>
+    <div class="tab" data-show="recipes-list">Lista przepisów</div>
+    <div class="tab" data-show="shopping">Lista Zakupów</div>
+    <div class="tab" data-show="recipe-input">Dodaj przepis</div>
+    <form class="recipe-input hidden">
+      <input placeholder="Nazwa przepisu" class="recipe-name">
+      <button type="button" id="add-ingridient-btn">Dodaj składnik</button>
+      <div class="ing-inputs"></div>
+      <button type="button" id="add-recipe-btn">Dodaj przepis</button>
+    </form>
+    <form class="recipes-list"></form>
     <form class="shopping">
       <h1 class="hidden">Lista zakupów</h1>
     </form>
-      <script src='main.js'></script>
+      <script src='./js/main.js'></script>
   </body>
 </html>

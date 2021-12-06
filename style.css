@@ -6,3 +6,13 @@
 .hidden {
     display: none;
 }
+
+.active {
+    background-color: aquamarine;
+}
+
+.tab {
+    display: inline-block;
+    width: 20rem;
+    height: 4rem;
+}
