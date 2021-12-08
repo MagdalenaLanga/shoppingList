@@ -1,0 +1,19 @@
+.header {
+    color: palevioletred;
+    font-size: 1.5rem;
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    background-color: aquamarine;
+}
+
+.tab {
+    display: inline-block;
+    width: 20rem;
+    height: 4rem;
+}
+/*# sourceMappingURL=index.ce52d1c1.css.map */
